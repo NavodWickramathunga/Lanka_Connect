@@ -46,4 +46,5 @@ app.*.map.json
 
 # Firebase secrets (DO NOT COMMIT)
 android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
 lib/firebase_options.dart
