@@ -1,6 +1,31 @@
 # lanka_connect
 
-A new Flutter project.
+A new Flutter project with Firebase integration.
+
+## Firebase Setup
+
+⚠️ **Important**: Before running this app, you must configure Firebase for iOS and Android.
+
+See [FIREBASE_SETUP.md](FIREBASE_SETUP.md) for detailed setup instructions.
+
+### Quick Setup
+
+1. Install FlutterFire CLI:
+   ```bash
+   dart pub global activate flutterfire_cli
+   ```
+
+2. Configure Firebase:
+   ```bash
+   firebase login
+   flutterfire configure --project=lankaconnect-app
+   ```
+
+3. Run the app:
+   ```bash
+   flutter pub get
+   flutter run
+   ```
 
 ## Getting Started
 
